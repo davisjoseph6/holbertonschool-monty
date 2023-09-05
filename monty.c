@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 gvar_t gvar;
 
