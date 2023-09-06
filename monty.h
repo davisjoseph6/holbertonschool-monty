@@ -39,6 +39,9 @@ typedef struct instruction_s
 int main(int argc, char **argv);
 void execute_instructions(FILE *file, stack_t **stack);
 FILE* open_file(char *filename);
+int _isdigit(char *str);
+void add_node(stack_t **stack, int n);
+int parse_arg(char *arg, unsigned int line_number);
 
 
 
