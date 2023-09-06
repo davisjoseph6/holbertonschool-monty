@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -36,8 +36,9 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-
-void push(char *num);
+int main(int argc, char **argv);
+void execute_instructions(FILE *file, stack_t **stack);
+FILE* open_file(char *filename);
 
 
 
