@@ -1,3 +1,4 @@
+#include "monty.h"
 /**
  * open_file - Opens a file for reading and handles errors.
  *

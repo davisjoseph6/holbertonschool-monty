@@ -1,3 +1,4 @@
+#include "monty.h"
 /**
  * parse_arg - Parses the argument to ensure it's a valid integer.
  * @arg: The argument string to parse.
