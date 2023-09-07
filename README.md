@@ -25,9 +25,6 @@ In contrast, elements in a queue can be added in a First in, First out basis. Th
 
 # Requirements
 
-- Allowed editors: vi, vim, emacs
-- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic
-- All your files should end with a new line
 - A README.md file, at the root of the folder of the project is mandatory
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 - You allowed to use a maximum of one global variable
@@ -122,8 +119,8 @@ The Monty Interpreter returns the following exit statuses:
 The Monty code is organized into the following files:
 
 - `monty.h`: Header file containing function prototypes and data structures.
-- `main.c`: Main entry point of the program, handles file reading and execution.
-- `function.c`: Contains the function to execute Monty bytecode instructions.
+- `monty.c`: Main entry point of the program, handles file reading and execution.
+- `.c files`: Contains the function to execute Monty bytecode instructions.
 - `opcode.c`: Contains functions to manipulate the stack (push, pop, swap, etc.).
 
 # Tests
