@@ -3,7 +3,7 @@
 Monty Interpreter is a tool designed to parse and interpret [Monty bytecode](#monty-bytecode-files) files. Monty is a minimalistic scripting language that operates on a unique stack and provides specific instructions for manipulating it.
 
 ## Table of Contents
-- [Stacks, Queues - LIFO, FIFO](#stacks-queues--lifo-fifo)
+- [Stacks, Queues - LIFO, FIFO](#stacks-queues-lifo-fifo)
 - [Requirements](#requirements)
 - [Compilation & Execution](#compilation--execution)
 - [The Monty Language](#the-monty-language)
@@ -132,5 +132,5 @@ It is highly recommended to write a comprehensive set of tests to ensure the cor
 
 # Author
 
-This Monty Interpreter was created by [Younes Saber] (https://github.com/seeyou7)  and [Davis Joseph](https://github.com/davisjoseph6).
+This Monty Interpreter was created by [Younes Saber](https://github.com/seeyou7) and [Davis Joseph](https://github.com/davisjoseph6).
 
