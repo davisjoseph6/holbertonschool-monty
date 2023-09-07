@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * execute_instruction - Reads a file line by line and executes
+ * execute_instructions - Reads a file line by line and executes
  *
  * @file: Pointer to the file to be read.
  * @stack: Double pointer to the stack.
